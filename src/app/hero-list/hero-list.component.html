@@ -1,0 +1,18 @@
+<main class="container">
+  <h1>List of heroes</h1>
+
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let hero of heroList">
+      <div class="card hero-card">
+        <div class="text-xs-center">
+          <img class="rounded" src="{{ hero.img }}"/>
+        </div>
+
+        <div class="card-block">
+          <h4 class="card-title">{{ hero.name }}</h4>
+          <p class="card-text">Hero description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

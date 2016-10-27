@@ -1,0 +1,8 @@
+.hero-card {
+  margin: 10px;
+}
+
+.hero-card img {
+  height: 200px;
+  max-width: 100%;
+}
